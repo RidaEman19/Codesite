@@ -1,3 +1,4 @@
+STARTING GIT
 git init
 git add .
 git commit -m "initial commit"
@@ -7,14 +8,37 @@ git branch -M master
 git branch
 git remote add origin https://github.com/RidaEman19/rfr.git
 git push -u origin main
-git config --global http.proxy http://200.100.100.250:8080
+git config --global http.proxy http://200.100.100.250:8080   (in aptech)
+git pull origin main --rebase                                (if you gets some error afer push)
+git config --global user.name "rida"
+git config --global user.email "ridaeman@aptechgdn.net"
+git log
 
 
-windows credential
-git pull origin main --rebase
+AFTER SOME CHANGE IN PROJECT
+git add .
+git commit -m "initial commit"
+git push 
+
+
+FOR DOWNLOADING PROJECT FROM GITHUB
+git clone https://github.com/RidaEman19/YOUR REPO NAME
+
+
+BRANCHING
+git status
+git branch
+git branch mybranch           (local branch)
+git checkout mybranch         (for switching branch)
+git checkout -b newbranch     (for creating and switching branch at a time)
+git branch -d newbranch       (for deleting)
+
+git add .
+git commit -m "initial commit"
+git push -u origin mybranch
+
+
+WINDOWS CREDENTIAL
 git remote -v
 git remote remove origin
 git remote set-url origin https://github.com/RidaEman19/portfoliomy.git
-
-
-goori2506f@aptechgdn.net
